@@ -30,3 +30,13 @@ FROM
     order_details ON order_details.pizza_id = pizzas.pizza_id
 GROUP BY pizza_types.category
 ORDER BY quantity DESC;
+
+
+
+-- Find category-wise distribution of pizzas
+
+SELECT 
+    category, COUNT(name)
+FROM
+    pizza_types
+GROUP BY category;
