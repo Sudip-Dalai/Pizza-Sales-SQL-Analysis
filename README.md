@@ -49,6 +49,5 @@ SQL Concepts Used
 Multi-table JOINs
 Aggregations (SUM, COUNT, AVG)
 Subqueries
-Window Functions (RANK OVER PARTITION)
 GROUP BY and ORDER BY
-Revenue contribution analysis
+
